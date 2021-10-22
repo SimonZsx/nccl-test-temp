@@ -1,0 +1,65 @@
+heming-g4:97952:97952 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+heming-g4:97952:97952 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE ; OOB enp216s0:10.22.1.25<0>
+heming-g4:97952:97952 [0] NCCL INFO Using network IB
+NCCL version 2.7.8+cuda10.2
+heming-g4:97952:97977 [0] NCCL INFO Channel 00/02 :    0   1
+heming-g4:97952:97977 [0] NCCL INFO Channel 01/02 :    0   1
+heming-g4:97952:97977 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 8/8/64
+heming-g4:97952:97977 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1|-1->0->1/-1/-1 [1] 1/-1/-1->0->-1|-1->0->1/-1/-1
+heming-g4:97952:97977 [0] NCCL INFO Setting affinity for GPU 0 to 0f,ff000fff
+heming-g4:97952:97977 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97977 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97977 [0] NCCL INFO Channel 00 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97977 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97977 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97977 [0] NCCL INFO Channel 01 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97977 [0] NCCL INFO 2 coll channels, 2 p2p channels, 2 p2p channels per peer
+heming-g4:97952:97977 [0] NCCL INFO comm 0x7fc278000e00 rank 0 nranks 2 cudaDev 0 busId 18000 - Init COMPLETE
+heming-g4:97952:97952 [0] NCCL INFO Launch mode Parallel
+heming-g4:97952:97985 [0] NCCL INFO Channel 00/02 :    0   1
+heming-g4:97952:97985 [0] NCCL INFO Channel 01/02 :    0   1
+heming-g4:97952:97985 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 8/8/64
+heming-g4:97952:97985 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1|-1->0->1/-1/-1 [1] 1/-1/-1->0->-1|-1->0->1/-1/-1
+heming-g4:97952:97985 [0] NCCL INFO Setting affinity for GPU 0 to 0f,ff000fff
+heming-g4:97952:97985 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97985 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97985 [0] NCCL INFO Channel 00 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97985 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97985 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97985 [0] NCCL INFO Channel 01 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97985 [0] NCCL INFO 2 coll channels, 2 p2p channels, 2 p2p channels per peer
+heming-g4:97952:97985 [0] NCCL INFO comm 0x7fc27c000e00 rank 0 nranks 2 cudaDev 0 busId 18000 - Init COMPLETE
+heming-g4:97952:97952 [0] NCCL INFO Launch mode Parallel
+heming-g4:97952:97992 [0] NCCL INFO Channel 00/02 :    0   1
+heming-g4:97952:97992 [0] NCCL INFO Channel 01/02 :    0   1
+heming-g4:97952:97992 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 8/8/64
+heming-g4:97952:97992 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1|-1->0->1/-1/-1 [1] 1/-1/-1->0->-1|-1->0->1/-1/-1
+heming-g4:97952:97992 [0] NCCL INFO Setting affinity for GPU 0 to 0f,ff000fff
+heming-g4:97952:97992 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97992 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97992 [0] NCCL INFO Channel 00 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97992 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97992 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97992 [0] NCCL INFO Channel 01 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97992 [0] NCCL INFO 2 coll channels, 2 p2p channels, 2 p2p channels per peer
+heming-g4:97952:97992 [0] NCCL INFO comm 0x7fc268000e00 rank 0 nranks 2 cudaDev 0 busId 18000 - Init COMPLETE
+heming-g4:97952:97952 [0] NCCL INFO Launch mode Parallel
+heming-g4:97952:97999 [0] NCCL INFO Channel 00/02 :    0   1
+heming-g4:97952:97999 [0] NCCL INFO Channel 01/02 :    0   1
+heming-g4:97952:97999 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 8/8/64
+heming-g4:97952:97999 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1|-1->0->1/-1/-1 [1] 1/-1/-1->0->-1|-1->0->1/-1/-1
+heming-g4:97952:97999 [0] NCCL INFO Setting affinity for GPU 0 to 0f,ff000fff
+heming-g4:97952:97999 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97999 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97999 [0] NCCL INFO Channel 00 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97999 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97999 [0] NCCL INFO Could not enable P2P between dev 0(=18000) and dev 1(=3b000)
+heming-g4:97952:97999 [0] NCCL INFO Channel 01 : 0[18000] -> 1[3b000] via direct shared memory
+heming-g4:97952:97999 [0] NCCL INFO 2 coll channels, 2 p2p channels, 2 p2p channels per peer
+heming-g4:97952:97999 [0] NCCL INFO comm 0x7fc280000e00 rank 0 nranks 2 cudaDev 0 busId 18000 - Init COMPLETE
+heming-g4:97952:97952 [0] NCCL INFO Launch mode Parallel
+Done with tensor size 100000
+Done with tensor size 1000000
+Done with tensor size 10000000
+Done with tensor size 100000000
+Complete time:  9.768698692321777
